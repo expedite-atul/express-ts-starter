@@ -10,8 +10,8 @@
   "paths": {
     "/search": {
       "get": {
-        "tags": ["Search Text"],
-        "summary": "Search by places using opencagedata service",
+        "tags": ["get details"],
+        "summary": "get details by id",
         "responses": {
           "200": {
             "description": "OK"
@@ -25,11 +25,11 @@
         },
         "parameters": [
           {
-            "name": "q",
+            "name": "id",
             "in": "query",
             "description": "Specifies the query string",
             "required": true,
-            "type": "string"
+            "type": "number"
           }
         ]
       }

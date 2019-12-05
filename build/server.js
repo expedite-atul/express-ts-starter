@@ -23,5 +23,5 @@ index_1.applyRoutes(routes_1.default, router);
 index_1.applyMiddleware(errorHandlers_1.default, router);
 const { PORT = 3000 } = process.env;
 const server = http_1.default.createServer(router);
-server.listen(PORT, () => console.log(`Server is running http://localhost:${PORT}...`));
+server.listen(PORT, () => console.log(`Server is running find docs at -- http://localhost:${PORT}/api-docs`));
 //# sourceMappingURL=server.js.map
